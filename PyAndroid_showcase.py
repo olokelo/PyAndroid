@@ -1,4 +1,5 @@
-import PyAndroid as PA
+from PyAndroid import PyAndroid as PA
+# if you install via pypi use code above, else use import PyAndroid as PA
 import os
 # Made for pyandroid >= 1.0 <= 1.0.3
 os.system('clear') # clear the screen
