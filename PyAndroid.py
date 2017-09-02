@@ -19,7 +19,7 @@
 import re
 import os, platform
 import datetime
-import wicode 
+from . import wicode 
 
 f = open("/system/build.prop", 'r')
 
