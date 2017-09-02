@@ -1,5 +1,6 @@
 import PyAndroid as PA
 import os
+# Made for pyandroid >= 1.0 <= 1.0.3
 os.system('clear') # clear the screen
 PA.min_sdk(14) # set minimum api level to run script
 print('You have android {} {}, with api {}.\n'.format(PA.android_version(), PA.android_name(), PA.sdk_version()))
