@@ -21,8 +21,6 @@ import os, platform
 import datetime
 from . import wicode 
 
-f = open("/system/build.prop", 'r')
-
 # CHECK SYSTEM
 
 work = True
@@ -34,6 +32,8 @@ if not os.path.exists('/system/build.prop'):
     work = False
     exit()
 
+f = open("/system/build.prop", 'r')
+    
 # GET ANDROID VERSION
 
 def android_version(with_error=True):
